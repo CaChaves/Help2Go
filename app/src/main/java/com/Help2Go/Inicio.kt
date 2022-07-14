@@ -9,17 +9,18 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import com.help2go.databinding.ActivityMainBinding
+import com.help2go.databinding.ActivityInicioBinding
 
-class MainActivity : AppCompatActivity() {
+
+class Inicio : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityInicioBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityInicioBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         FirebaseApp.initializeApp(this)
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         binding.btRegistro.setOnClickListener { haceRegistro() }
         binding.btLogin.setOnClickListener { haceLogin() }
 
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_inicio)
     }
 
     private fun haceLogin() {

@@ -19,7 +19,7 @@
             android:label="@string/title_activity_principal"
             android:theme="@style/Theme.Help2Go.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Inicio"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
