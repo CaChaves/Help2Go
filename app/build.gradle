@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.Help2Go"
+        applicationId "com.help2go"
         minSdk 27
         targetSdk 32
         versionCode 1

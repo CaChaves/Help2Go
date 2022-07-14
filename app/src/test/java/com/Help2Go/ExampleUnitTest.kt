@@ -1,4 +1,4 @@
-package com.Help2Go
+package com.help2go
 
 import org.junit.Test
 

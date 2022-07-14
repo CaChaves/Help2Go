@@ -1,4 +1,4 @@
-package com.Help2Go
+package com.help2go
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
