@@ -1,9 +1,13 @@
 <resources>
+
+    <!-- Pantalla del inicio-login -->
     <string name="app_name">Help2Go</string>
     <string name="tv_correo">Correo</string>
     <string name="tv_contrasena">Contraseña</string>
     <string name="msg_fallo_registro">Error al registrar usuario</string>
     <string name="msg_fallo_login">Error a hacer login</string>
+
+    <!-- Pantalla del burger menu -->
     <string name="title_activity_principal">Principal</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -12,8 +16,15 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <!-- Opciones del burger menu -->
+    <string name="menu_home">Principal</string>
+    <string name="menu_ajustes">Ajustes</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <!-- Checkout activity -->
+    <string name="title_activity_realizar_pago">Realizar Pago</string>
+    <string name="checkout_item_description">Descripcion</string>
+    <string name="googlepay_status_unavailable" translatable="false">Desafortunadamente,Google Pay no se encuentra habilitado para este dispositivo.</string>
+    <string name="payments_show_name" translatable="false">Pago recibido exitosamente.</string>
 
 </resources>
